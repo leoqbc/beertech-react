@@ -1,6 +1,16 @@
-export class Cliente {
+import Base from "./Base";
+
+class Cliente extends Base {
     constructor(nome, sobrenome) {
-        this.nome = nome;
+        super(nome);
         this.sobrenome = sobrenome;
     }
 }
+
+function formatter() {
+
+}
+
+export default Cliente;
+
+export { formatter };
