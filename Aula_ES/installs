@@ -1,0 +1,5 @@
+yarn add webpack webpack-cli -D
+
+yarn add @babel/core @babel/preset-env babel-loader -D
+
+yarn add babel-plugin-syntax-async-functions @babel/plugin-transform-regenerator @babel/plugin-transform-runtime -D
