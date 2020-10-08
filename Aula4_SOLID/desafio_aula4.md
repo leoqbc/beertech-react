@@ -10,13 +10,13 @@ Ele terá as seguintes funcionalidades:
 4. Após a seleção da sugestão os cards de hoteis deverá atualizar para as sugestões de hoteis da região
 5. A apresentação de cards dos hoteis deverá possibilitar paginação
 
-![](/tela_mock.png)
+![](./tela_mock.png)
 
 Debatam entre vocês quais elementos, classes, funções, ferramentas deverão ser usadas no projeto, detalhem os componentes visuais e seus eventos, pode ser feito um desenho, ou até mesmo escrito, definindo quais elementos vocês julgam importantes ter neste projeto frontend.
 
 Exemplos de perguntas importantes:
-1. Como será a padronização de código?
-2. Quais libs/ferramentas serão usadas?
-3. Quais pontos podem sofrer mudanças e como adaptar?
-4. Quais componentes visuais existirão?
-5. Como será a interação entre Frontend e Backend?
+- Como será a padronização de código?
+- Quais libs/ferramentas serão usadas?
+- Quais pontos podem sofrer mudanças e como adaptar?
+- Quais componentes visuais existirão?
+- Como será a interação entre Frontend e Backend?
