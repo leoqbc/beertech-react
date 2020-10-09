@@ -18,7 +18,7 @@ class RESTRequester {
     protected url: string = "https://api.company.com/users";
 
     sendPostToApi() {
-        axios.post(this.url); // hardcoded: lembrar de ser em config
+        // axios.post(this.url); // hardcoded: lembrar de ser em config
     }
 }
 
@@ -42,7 +42,7 @@ class StoreCookie implements IDataStoreAction {
 // Open/Close
 class DataStore {
     // Inversão de depencia
-    // 
+    // Dependemos de uma interface e não uma implementação
     store(storeAction: IDataStoreAction, data: object) {
         storeAction.getData(data);
         storeAction.storeData();
