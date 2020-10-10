@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Relogio from './Relogio';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <section>
+        <Relogio hour={22} minutes={10} seconds={22} />
+      </section>
+    );
+  }
 }
 
 export default App;
