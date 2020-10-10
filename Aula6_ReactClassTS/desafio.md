@@ -18,6 +18,8 @@ Abaixo segue uma lista de atividades a serem desenvolvidas:
 6. Fazer o filtro dos cards da busca por clientes
 7. Faça a estilização do projeto (simples CSS ou algum Framework que preferirem)
 
+Link da api: https://jsonplaceholder.typicode.com/
+
 Abaixo um wireframe base de uma sugestão de posicionamento dos elementos:
 
 ![](./wire_tela_users.png)
