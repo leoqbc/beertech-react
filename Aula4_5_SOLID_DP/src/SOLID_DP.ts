@@ -103,5 +103,49 @@ class QueueManipulation implements ReadAction {
     loadFile(): boolean {
         return true;
     }
-    
 }
+
+// ============= Alguns Design Patterns ===========
+ 
+// Factory Method
+
+class Player {
+
+}
+
+// factory method
+const player: Player = new Player(800, 600, "Frase de Erro");
+
+player.setSources({ src: "", type: "" });
+
+player.render("idElement");
+
+class PlayerFactory {
+
+    // Singleton(as vezes anti pattern) validar se já não instanciou esse objeto
+    static makePlayer(params: object) {
+        
+        const player: Player = new Player(800, 600, "Frase de Erro");
+
+        return player;
+    }
+}
+
+// PlayerFactory.makePlayer();
+
+const hamburguerBuilder = new HamburguerBuilder();
+
+// DSL Domain Specific Language
+// Method chainning
+// Builder 
+hamburguerBuilder
+    .addQueijo()
+    .addCarne()
+    .Pao();
+
+class DOMElementIterator {
+    [Symbol.iterator] = function () {
+
+    }
+}
+
