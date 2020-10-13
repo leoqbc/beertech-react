@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 800px;
+    box-shadow: 4px 4px 20px #DDD;
+    padding: 20px;
+}
+
+.App label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.App button {
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #0a66c2;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: #DDD;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.App button:active {
+    background: #0280ff;
+}
+
+.App select {
+    display: block;
+    width: 100%;
+    font-size: 1.7rem;
+}
+
+.App section {
+    margin-bottom: 20px; 
+}
+
+.App #reportList {
+    margin-top: 20px;
+    padding: 0px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #666;
+}
+
+.App #reportList td, th {
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+
+.App #reportList thead tr {
+    background-color: #CCC;
+}
+.App #reportList tbody tr:nth-child(odd) {
+    background-color: #dee2e6;
+}
+
+.App #reportList tbody tr:nth-child(even) {
+    background-color: #EEE;
+}
