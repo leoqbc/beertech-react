@@ -26,11 +26,14 @@ function App() {
   const alunoRef = useRef<HTMLInputElement>(null); // como se fosse document.getElementByID
 
   const handleClick = () => {
+    if (alunoRef.current === null) {
+      return;
+    }
     setAlunos([
       ...alunos,
       {
         id: alunos.length + 1,
-        nome: alunoRef.current!.value
+        nome: alunoRef.current.value
       }
     ]);
   }
