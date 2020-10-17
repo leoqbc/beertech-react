@@ -5,7 +5,7 @@ interface TodoListProps {
 }
 
 const TodoList = ({ children }: TodoListProps) => {
-  return <ul>{children}</ul>;
+  return <ul style={{ listStyle: "none" }}>{children}</ul>;
 };
 
 export default TodoList;
