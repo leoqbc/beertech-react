@@ -1,0 +1,1 @@
+docker-compose exec -u 1000 node $@
