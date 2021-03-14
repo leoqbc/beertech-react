@@ -1,0 +1,16 @@
+relacional X não relacional
+
+Relacional
+Script: SQL (Sequel)
+Schemas (App1, App2)
+  Tables (Tabelas) -> Users
+    Colunas / Tipar (Campos) nome, email, telefone, ...
+    Relacionamentos / 
+    Registros / Rows / Linhas
+
+Não Relacional(NoSQL) (mongodb, couchdb, cassandra, firebase) - Flexibilidade
+Script: Javascript/BSON
+Databases / varios
+  Collections -> Users
+    Documento(JSON/Objeto literal) Sem regra -> 
+      Campos livres

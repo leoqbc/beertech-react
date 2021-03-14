@@ -1,0 +1,6 @@
+1.Minor(Novas funcionalidades).PATCH(correção)
+
+2.0.0
+1.47.7
+
+scp -i Downloads/BeerTechTalents_key_demo.pem -r beertech/beertech-react/Aula_Docker/app/build/* azureuser@191.234.180.176:/home/azureuser

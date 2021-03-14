@@ -11,4 +11,6 @@ services:
   nginx:
     image: nginx:1.19.3-alpine
     ports:
-      - 80:80
+      - 8081:80
+    volumes:
+      - ./app/build:/usr/share/nginx/html
